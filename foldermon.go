@@ -1,5 +1,5 @@
 // Folder Monitor
-// By Orochi, 2025 Saudi Arabia
+// By Rui, 2025 Saudi Arabia
 //
 // Dependencies
 // - fsnotify
