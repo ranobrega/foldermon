@@ -43,7 +43,7 @@ func main() {
 	}
 	defer logFile.Close()
 	log.SetOutput(io.MultiWriter(os.Stdout, logFile))
-	log.Println("Starting folder monitor...")
+	log.Println("Foldermon: starting folder monitor...")
 
 	// Get folders from command line arguments.
 	watchFolder, backupFolder, err := getFoldersFromArgs()
